@@ -1,0 +1,43 @@
+#1 
+MJV's Draytek 2915 authentication
+Username: admin - Password: nimda
+
+#2 Getting information
+
+- Default gateway of WAN network from ISP
+Eg: MJV's WAN default gateway: 123.29.12.197
+
+- Static IP address block assigning to the current line
+Eg: MJV's static IP address block: 113.164.120.168/29
+
+- Username and Password of WAN connection
+Eg: Username: fbmijack -- Passwd: tanthanh
+
+#3 Starting off the job
+
+- Accessing into Draytek 2915 router
+
+- Disable the DHCP server (optional)
+
+- Turning off Wireless signal from the Draytek 2915 (optional)
+
+- Accessing WAN section --> Internet Access --> WAN 1 / 2 interface's detail page
+
+- PPPoE section --> Enter fixed IP address into the field Fixed IP Address
+Eg: 113.164.120.168
+
+- LAN section --> General Setup --> IP Routed Subnet --> Detail Page
+
+#4 Detail page of IP Routed Subnet
+
+- Network Configuration section --> Enter the next static IP address to the field IP Address --> Choosing the correct Network Mask
+Eg: 113.164.120.169/29
+
+- DHCP Configuration section --> Enter the next static IP address to the field Start IP Address
+Eg: 113.164.120.170
+
+#5 Conclusion
+
+- Overview of MJV's network configurations
+
+<ISP> --> <Router> (Static IP Address: 113.164.120.168 / 113.164.120.169) --> <Firewall> (Static IP Address: 113.164.120.170 / Internal IP address: 10.210.0.1) --> <Network Switch> --> <AP><User>
