@@ -1,0 +1,15 @@
+# Draytek 2915 authentication
+Username: admin -- Password: MJVvjmissitheehtcompanyynapmoa123!@#2022
+
+# WAN gateway
+123.29.12.108
+
+# Static IP address
+14.241.187.208 - 14.241.187.209
+
+# Internal IP address
+10.212.0.1
+
+# Conclusion
+
+<ISP> -- <Router> (14.241.187.208 - 14.241.187.209) -- <Firewall> (14.241.187.210 - 10.212.0.1) -- <Network Switch> -- <Devices> <Users> <APs>
