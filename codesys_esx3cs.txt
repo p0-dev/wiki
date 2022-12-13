@@ -1,0 +1,15 @@
+// This wiki file is intended for storing notes relating to the project of Apollo and Midge (the company: Isoloader).
+// Compiler + IDE: Codesys 3.5 SP11 STW profile version.
+
+# Setting up the software development environment
+- Codesys V3.5 SP11 STW installation from STW cloud distribution or tt's customized package distribution.
+- STW ESX.3CS library package for Codesys V3.5 SP11
+- OpenSYDE tool for downloading .hex files (application + runtime) into PLC's flash memory.
+
+# Flashloading application through CAN bus
+- Default configuration of ESX.3CS is tied with CAN 1 interface. Thus, all flash loading function and monitoring could be done using CAN 1 interface.
+- The Ethernet could be used for flash loading and monitoring. However, this option is not recommended by STW. But, this is the way recommended by the author. :D.
+
+# Notes:
+- Sometimes, with the use of Codesys and ESX.3CS, the application could be flashed automatically through CAN interfaces or ETH interfaces. This means the PLC will be going to Flashloading Mode for receiving firmware and applications from OpenSYDE tool. However, this function is not very consistent and will need to be investigated more. 
+
