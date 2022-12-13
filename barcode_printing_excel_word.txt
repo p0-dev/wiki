@@ -1,0 +1,27 @@
+# This document is intented as guide for printing barcode with Excel and Word.
+# Word has a built-in function which allow for merging fields from Excel could be convert into Code 39 / Code 128 or Code QR depends on the user's need.
+
+# Preparing data with Excel
+- Preparing data with Excel for data to be printed or converted into barcode
+- Notes: the first row will always be the title and will be ignored when import the Excel file as data source.
+- For example:
+First column: Isocode
+Second column: Serial number
+Third column: Isocode + Serial number = Isoserial
+Forth column: Description
+- On the label, the Isoserial will need to be displayed as QR code. 
+- The Isocode / Serial number and Description will be displayed as normal form.
+
+# Merging data from Excel to Word
+- Opening Word --> Mailing section --> Function Select Recipients --> Using an existing lists --> Choosing the data source as Excel file.
+- Setting the layout inside Word --> Notes: the paper layout size will need to be exact the same as the configuration on the printer.
+Notes: the printer's configuration page could be opened and refered for precise parameters.
+- Making layout of the label by adding boxes without content.
+- The content of each box could be added by using the function --> Mailing section --> Insert Merge Field --> Selecting the necessary field as the specific box.
+- With the text as normal form, no more step is needed to be done.
+- With the text as barcode form, after adding merge field --> Right click --> Toggle Merge Field --> The merge field will be displayed as {MERGEFIELD Isoserial} from normal form as <<Isoserial>>.
+- After that step, change the word MERGEFIELD inside to MERGEBARCODE, after the word Isoserial, adding the word of barcode type such as CODE 39, CODE 128 or QR. In this example, the barcode type is QR. Hence, final result is {MERGEBARCODE Isoserial QR}
+- Verifying the result of merging, using the function --> Mailing section --> Preview Results for modifying / editting with final results.
+
+# Super notes:
+- Making sure that the paper layout is exactly the same as the parameters of barcode printer. Microsoft Word is a sucker.
