@@ -12,4 +12,4 @@
 
 # Notes:
 - Sometimes, with the use of Codesys and ESX.3CS, the application could be flashed automatically through CAN interfaces or ETH interfaces. This means the PLC will be going to Flashloading Mode for receiving firmware and applications from OpenSYDE tool. However, this function is not very consistent and will need to be investigated more. 
-
+- Adding new CAN device into the CAN network --> Enable "Expert settings" --> Disable "Reset node". If this procedure is not done, the CAN device will have a bad day. The reason is unknown.
