@@ -1,3 +1,14 @@
 # This file is intended for tracking the progress of fixing 4wd system of Panda.
 
 # Checking for power at the connector --> The best thing to do is finding our the layout of connector at transfer case shift actuator
+
+13/12/2022
+- Checking the relays at engine fuse box --> OK
+- Checking the all fuses at engine fuse box --> OK
+- Checking the power at transfer case shift actuator --> Not OK --> Check again
+
+To be doing
+- Checking the power at electrical wires to transfer case shift actuator
+- Checking the connector
+- Cleaning the motor shaft
+- Checking all the fuses at power distribution box (underneath engine fuse box)
