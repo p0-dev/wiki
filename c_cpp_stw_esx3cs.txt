@@ -1,0 +1,4 @@
+# This file is intended as a wiki for the source code of C/C++ with the hardware STW ESX.3CS.
+
+# Working with CAN Open libraries such as COL2, OSY L2
+- Be careful with the input's data type of STW's API.
