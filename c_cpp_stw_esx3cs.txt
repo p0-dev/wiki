@@ -2,3 +2,4 @@
 
 # Working with CAN Open libraries such as COL2, OSY L2
 - Be careful with the input's data type of STW's API.
+- The constant CAN configurations might have to go with static const for working properly.
