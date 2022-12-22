@@ -1,5 +1,5 @@
 # This file is intended as a wiki for the source code of C/C++ with the hardware STW ESX.3CS.
 
 # Working with CAN Open libraries such as COL2, OSY L2
-- Be careful with the input's data type of STW's API.
 - The constant CAN configurations might have to go with static const for working properly.
+- With COL2 library, there is no way in order to send SYNC command. Hence, SYNC message has to be defined through OpenSYDE L2 library. Alternatively, the Encoder event timer could be set for transferring data automatically.
