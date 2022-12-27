@@ -4,3 +4,4 @@
 - The constant CAN configurations might have to go with static const for working properly.
 - OSY L2 has to be initilized and used first before COL2.
 - DLC (Data Length Code) on OpenSYDE needs to be exact for OSY L2 to be working.
+- Adding CAN nodes in order into OpenSYDE.
