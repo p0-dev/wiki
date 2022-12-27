@@ -4,4 +4,13 @@
 - The constant CAN configurations might have to go with static const for working properly.
 - OSY L2 has to be initilized and used first before COL2.
 - DLC (Data Length Code) on OpenSYDE needs to be exact for OSY L2 to be working.
-- Adding CAN nodes in order into OpenSYDE.
+
+# Procedure of adding new node into system
+- Checking OpenSYDE L2 library filter for RX messages.
+- Checking CANOpen COL library for node list.
+- Adding nodes into OpenSYDE tool in order (it is a must).
+- Adding EDS file for each node in order (it is a must).
+- Checking DLC.
+- Export OpenSYDE library gen to project folder: libosygen.
+- Remove/Add files into the project with CodeBlocks.
+- Rebuild --> Testing
