@@ -1,0 +1,8 @@
+Flashing the TC Charger DC-DC Converter (model: TDC-IY)
+
+Reason
+  The firmware inside the DC-DC converter operates the CAN bus at baudrate 500 kbps. It need to be flashed new firmware to operate CAN bus at baudrate 250 kbps.
+  
+The DC-DC converter cannot be flashed due to several errors:
+  - The ZLG CANUSB and its driver are not working properly --> This theory has been tested, the unit and its driver are working perfectly fine with the program CANTest.
+  
