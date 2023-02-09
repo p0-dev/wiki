@@ -1,0 +1,8 @@
+Info
+  The control cable connect directly to the PLC STW ESX.3CS. It provides interfaces for CAN network, ethernet, sensors, IO, etc...
+ 
+Power supply for the ESX.3CS with the control cable
+  - UE: PLC positive power supply
+  - UB: Output positive power supply
+  - Ground: Common ground power supply
+  - Switch cordset (brown cable): Positive ignition power supply
