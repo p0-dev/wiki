@@ -5,4 +5,13 @@ Reason
   
 The DC-DC converter cannot be flashed due to several errors:
   - The ZLG CANUSB and its driver are not working properly --> This theory has been tested, the unit and its driver are working perfectly fine with the program CANTest.
+
+Conclusion
+  - The last fail was due to the version of the software (fail version 7.232) --> Referred version: 7.39
+  
+Basic configuration
+  - Intel: 762A - 76A
+  - Baudrate: 250 Kbps
+  - Address: FFFFFFFF
+  - Device ID: 4
   
