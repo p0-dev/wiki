@@ -1,0 +1,12 @@
+Testing 150A Zapi motor controller
+
+Prerequisite:
+  - Installing Zapi Console (version 1.09 to be able to work with CAN PEAK) and Zapi Flashing programs.
+  - Turning off LC coil alarm.
+  
+Password for Zapi Console:
+  - Password: ZAPI
+
+Test result:
+  - Motor is able to spin with 4A (no load).
+  - Temperature sensor has error --> Check.
