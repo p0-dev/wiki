@@ -7,6 +7,9 @@ Prerequisite:
  Working with Zapi Console program:
  - Node 8 - controlling the motor.
  - Node 10 - to be used with Zapi Console program.
+ 
+Changing stored parameters of Zapi motor controller with Zapi Console program:
+- Change parameter section --> Receive --> Change parameters as needed --> Store --> Power cycle
   
 Password for Zapi Console:
   - Password: ZAPI
