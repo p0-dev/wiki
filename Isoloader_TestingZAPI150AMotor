@@ -4,6 +4,10 @@ Prerequisite:
   - Installing Zapi Console (version 1.09 to be able to work with CAN PEAK) and Zapi Flashing programs.
   - Turning off LC coil alarm.
   
+ Working with Zapi Console program:
+ - Node 8 - controlling the motor.
+ - Node 10 - to be used with Zapi Console program.
+  
 Password for Zapi Console:
   - Password: ZAPI
 
